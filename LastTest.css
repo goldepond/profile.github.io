@@ -1,7 +1,10 @@
 /* ================================================= */
 /* 시스템 */
 
-*{margin: 0;padding: 0;box-sizing: border-box; text-decoration: none;}
+* {margin: 0;padding: 0;box-sizing: border-box; text-decoration: none;}
+a :focus ,a:hover{
+    text-decoration: none;
+}
 .left{float: left;}
 .right{float: right;}
 ul, li, dl,ol{list-style: none; }
@@ -25,6 +28,8 @@ section {
     font-size: 18px;
     float: left;
     margin: 10px 20px;
+}.title-nav ul li a{
+    color:  black;
 }
 @media(max-width: 767px)
 {
