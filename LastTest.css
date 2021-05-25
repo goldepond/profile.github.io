@@ -1,0 +1,144 @@
+/* ================================================= */
+/* 시스템 */
+
+*{margin: 0;padding: 0;box-sizing: border-box; text-decoration: none;}
+.left{float: left;}
+.right{float: right;}
+ul, li, dl,ol{list-style: none; }
+header{
+    width: 100%;
+    left: 0; top: 0;
+    position: fixed;
+    background-color:whitesmoke;
+    z-index: 50;
+    position: fixed;
+}
+section {
+    margin-top: 180px;
+}
+.title-nav{position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 150;
+}
+.title-nav ul li {
+    font-size: 18px;
+    float: left;
+    margin: 10px 20px;
+}
+@media(max-width: 767px)
+{
+     .quick-area{display: none;}
+}
+/* ================================================= */
+/* Head */
+
+.head{margin: 0 auto; text-align: center; overflow: hidden;}
+/* ============= */
+.head .top_width {  background-color: #444; height: 45px; text-align: center;}
+/* ============= */
+.top_width>ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.top_width>ul>li{display: inline-block;}
+.top_width>ul>li a{
+    display: block;
+    color: #fff;
+    height: 40px;
+    line-height: 45px;
+    padding: 0 20px;
+    margin: 0 10px;
+    border-bottom: 1px solid #444;
+    transition: all 0.5s linear 0s;
+}
+.top_width> ul li a:hover {
+    border-bottom: 5px solid #fff;
+}
+/* ============= */
+.title h1{
+    background-color: #fff;
+    font-size: 100px;
+    letter-spacing: 30px;
+    text-align: center;font-weight: bold;
+}
+/* ============= */
+.quick-area{
+    position: fixed;
+    top: 300px;
+    right: 0;
+    width: 100px;
+}
+.quick-area ul li{
+    text-align: center;
+    background: #282828;
+    font-size: 15px;
+}
+.quick-area a {
+    display: block;
+    padding: 15px 0;
+    border-top: 1px solid #4d4d4d;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.3;
+    letter-spacing: -1px;
+    padding-bottom: 10px;
+}
+
+/* ================================================= */
+/* Body */
+.content{
+    overflow:hidden;
+    text-align: center;
+    position: relative; 
+    box-sizing: border-box;
+   padding: 20px;
+}
+.title-image-text{
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    color: white;
+}
+.title-image-text h1 , .title-image-text p{
+    background: rgba(0,0,0,.3);
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.content p{
+    font-size: 15px;
+}
+.content .hoverbox{
+    position: absolute;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0,0,0,.8);
+    opacity: 0;
+}
+.hoverbox  a{
+    padding: 50px;
+    color: white;
+    display: block;
+    width: 100%;
+    height: 100%;    
+}
+.content .hoverbox:hover{
+    opacity: 1;
+}
+
+.title-image img{
+    width: 100%; height: 100%;
+    position: relative; 
+}
+.content> .content-img-box img{
+    
+    width: 100%; height: 100%;
+}
+/* ================================================= */
+/* Footer */
